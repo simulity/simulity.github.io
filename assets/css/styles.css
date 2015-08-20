@@ -237,7 +237,7 @@ h5 {
   padding: 100px 0;
   color: #fff;
   background: url(../img/header_image.jpg) no-repeat bottom center scroll;
-  background-color: #000;
+  background-color: #213771;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -451,7 +451,7 @@ h5 {
   padding: 100px 0;
   color: #fff;
   background: url(../img/tools_image.jpg) no-repeat bottom center scroll;
-  background-color: #000;
+  background-color: #ececec;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -527,7 +527,7 @@ h5 {
   height: auto;
   color: #fff;
   background: url(../img/about_image.jpg) no-repeat bottom center scroll;
-  background-color: #000;
+  background-color: #213771;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
