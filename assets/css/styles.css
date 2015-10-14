@@ -31,7 +31,7 @@ h5 {
 
 .btn-primary {
   background: #225799;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
   border: none;
   padding: 15px;
@@ -42,13 +42,13 @@ h5 {
   font-size: 16px;
   border-radius: 3px; }
   .btn-primary:hover {
-    background-color: #1e4e89; }
+    background-color: #1f4e8a; }
   .btn-primary:focus {
-    background-color: #1e4e89 !important; }
+    background-color: #1f4e8a !important; }
 
 .btn-secondary {
   background: #213771;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
   border: none;
   padding: 15px;
@@ -59,7 +59,7 @@ h5 {
   font-size: 16px;
   border-radius: 3px; }
   .btn-secondary:hover {
-    background-color: #1d3165;
+    background-color: #1e3266;
     color: #fff; }
 
 .btn.focus, .btn:focus, .btn:hover {
@@ -119,19 +119,19 @@ h5 {
 .navbar-default .nav li .careers {
   color: #fff !important; }
 .navbar-default .nav li .careers:hover {
-  background-color: #1d3165; }
+  background-color: #1e3266; }
 .navbar-default .nav li .contact:hover {
-  background-color: #1e4e89;
+  background-color: #1f4e8a;
   color: #fff !important;
-  border-color: #1e4e89; }
+  border-color: #1f4e8a; }
 .navbar-default .nav li .contact:focus {
-  background-color: #1e4e89;
+  background-color: #1f4e8a;
   color: #fff !important;
-  border-color: #1e4e89; }
+  border-color: #1f4e8a; }
 .navbar-default .nav li .contact:active {
-  background-color: #1e4e89;
+  background-color: #1f4e8a;
   color: #fff !important;
-  border-color: #1e4e89; }
+  border-color: #1f4e8a; }
 
 .navbar-default {
   font-family: 'HelveticaNRegular', Helvetica, Sans-Serif;
@@ -215,8 +215,7 @@ h5 {
   border: 2px solid #fff;
   border-radius: 3px;
   margin-left: 10px;
-  margin-right: 10px;
-  display: none !important; }
+  margin-right: 10px; }
 
 .contact {
   background: #225799;
@@ -339,34 +338,28 @@ h5 {
   0% {
     -webkit-transform: scale(1);
     transform: scale(1); }
-
   50% {
     -webkit-transform: scale(1.2);
     transform: scale(1.2); }
-
   100% {
     -webkit-transform: scale(1);
     transform: scale(1); } }
-
 @-moz-keyframes pulse {
   0% {
     -moz-transform: scale(1);
     transform: scale(1); }
-
   50% {
     -moz-transform: scale(1.2);
     transform: scale(1.2); }
-
   100% {
     -moz-transform: scale(1);
     transform: scale(1); } }
-
 /* ------------------------------------------------------------------------------------------------------------- Solutions */
 .solutions-section {
   padding: 0px 50px 20px 50px; }
 
 #solutions {
-  background-color: #f8f8f8;
+  background-color: #F8F8F8;
   padding: 80px 0px 100px 0px;
   color: #213771; }
   #solutions h3 {
@@ -378,7 +371,7 @@ h5 {
     font-size: 16px;
     text-align: left; }
   #solutions .text-primary {
-    color: white;
+    color: #ffffff;
     border: 2px solid #213771;
     border-radius: 1000px; }
   #solutions .fa-4x {
@@ -428,7 +421,7 @@ h5 {
   color: #213771; }
   .os-list ul {
     list-style: none;
-    background: #f8f8f8;
+    background: #F8F8F8;
     border: 1px solid #ececec;
     padding: 20px 10px 30px 45px; }
     .os-list ul li {
@@ -498,7 +491,7 @@ h5 {
     border-right: 1px solid #ececec; }
 
 .seqaura-caption, .pegasus-caption {
-  background-color: #f8f8f8;
+  background-color: #F8F8F8;
   border-bottom: 4px solid #213771;
   margin-top: -10px;
   border-left: 1px solid #ececec;
@@ -533,9 +526,9 @@ h5 {
   background-size: cover;
   -o-background-size: cover; }
   #about h2 {
-    color: white; }
+    color: #ffffff; }
   #about h3 {
-    color: white;
+    color: #ffffff;
     padding: 0px 50px 50px 50px;
     line-height: 25px; }
 
@@ -777,7 +770,7 @@ h5 {
     font-size: 16px;
     margin-top: 10px; }
     .fade-caption .fa:hover {
-      background-color: #1e4e89; }
+      background-color: #1f4e8a; }
   .fade-caption p {
     font-weight: 100; }
 
@@ -805,7 +798,7 @@ h5 {
 
 /* ------------------------------------------------------------------------------------------------------------- Logo Banner */
 #logo-banner {
-  background-color: #f8f8f8; }
+  background-color: #F8F8F8; }
   #logo-banner img {
     opacity: 0.7;
     width: 200px;
@@ -819,27 +812,29 @@ h5 {
 /* ------------------------------------------------------------------------------------------------------------- Careers Page */
 .job-description {
   padding-top: 10px;
-  padding-bottom: 50px; }
+  padding-bottom: 0px; }
   .job-description .job-heading {
     text-transform: none;
-    padding-bottom: 5px; }
+    padding-bottom: 15px;
+    text-decoration: underline; }
   .job-description h3 {
     color: #000;
     font-family: 'Open Sans', sans-serif;
     text-decoration: underline;
     font-weight: 800;
     padding-top: 10px;
+    font-size: 15px;
     padding-bottom: 10px; }
   .job-description ul {
     list-style: none;
     padding-left: 0px; }
     .job-description ul li {
-      padding-top: 10px;
-      padding-bottom: 10px; }
+      padding-top: 7px;
+      padding-bottom: 7px; }
   .job-description .apply {
     padding-top: 25px;
     color: #213771;
-    font-size: 18px; }
+    font-size: 20px; }
   .job-description hr {
     margin-top: 70px;
     margin-bottom: 30px; }
@@ -926,7 +921,7 @@ textarea {
     margin-bottom: 11px;
     margin-top: 2px; }
     .contact-card .btn:hover {
-      background-color: #1e4e89; }
+      background-color: #1f4e8a; }
 
 .form-control::-webkit-input-placeholder {
   color: #c4ccd2; }
@@ -1225,19 +1220,19 @@ footer {
   .navbar-default .nav li .careers {
     color: #fff !important; }
   .navbar-default .nav li .careers:hover {
-    background-color: #1d3165 !important; }
+    background-color: #1e3266 !important; }
   .navbar-default .nav li .contact:hover {
-    background-color: #1e4e89 !important;
+    background-color: #1f4e8a !important;
     color: #fff !important;
-    border-color: #1e4e89 !important; }
+    border-color: #1f4e8a !important; }
   .navbar-default .nav li .contact:focus {
-    background-color: #1e4e89;
+    background-color: #1f4e8a;
     color: #fff !important;
-    border-color: #1e4e89; }
+    border-color: #1f4e8a; }
   .navbar-default .nav li .contact:active {
-    background-color: #1e4e89;
+    background-color: #1f4e8a;
     color: #fff !important;
-    border-color: #1e4e89; }
+    border-color: #1f4e8a; }
 
   .careers {
     border: 2px solid #fff !important; }
