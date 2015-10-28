@@ -235,7 +235,7 @@ h5 {
   height: auto;
   padding: 100px 0;
   color: #fff;
-  background: url(../img/header_image.jpg) no-repeat bottom center scroll;
+  background: url(assets/img/header_image.jpg) no-repeat bottom center scroll;
   background-color: #213771;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -443,7 +443,7 @@ h5 {
   height: auto;
   padding: 100px 0;
   color: #fff;
-  background: url(../img/tools_image.jpg) no-repeat bottom center scroll;
+  background: url(assets/img/tools_image.jpg) no-repeat bottom center scroll;
   background-color: #ececec;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -519,7 +519,7 @@ h5 {
   width: 100%;
   height: auto;
   color: #fff;
-  background: url(../img/about_image.jpg) no-repeat bottom center scroll;
+  background: url(assets/img/about_image.jpg) no-repeat bottom center scroll;
   background-color: #213771;
   -webkit-background-size: cover;
   -moz-background-size: cover;
