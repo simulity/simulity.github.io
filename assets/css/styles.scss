@@ -1077,13 +1077,13 @@ padding: 80px 0px 50px 0px;
 
 /* ------------------------------------------------------------------------------------------------------------- Careers Page */
 
-.job-description {
-	padding-top: 10px;
+.job-description, .job-listings {
 	padding-bottom: 0px;
 	.job-heading {
 		text-transform: none;
 		padding-bottom: 15px;
 		text-decoration: underline;
+		padding-top: 40px;
 	}
 	h3 {
 		color: #000;
@@ -1118,6 +1118,47 @@ padding: 80px 0px 50px 0px;
 			color: $accent;
 		}
 	}
+}
+
+.job-listings {
+	margin-bottom: 40px;
+	ul {
+		li {
+			background-color: $blockgrey;
+			border:1px solid #f2f2f2;
+			padding: 30px;
+			margin: 30px 10px 30px 10px;
+		}
+		a {
+			font-size: 16px;
+			border-bottom: 1px solid $blockgrey;
+			color: #000;
+			font-weight: 800;
+			text-decoration: none;
+			span {
+				font-size: 12px;
+				color: $bodygrey;
+				font-style: italic;
+			}
+		}
+		li:hover {
+			background-color: #f2f2f2;
+			border:1px solid #f1f1f1;
+			cursor: pointer;
+			a {
+				color: $main;
+				text-decoration: none;
+				border-bottom: none;
+			}
+			span {
+				color: #000;
+			}
+		}
+	}
+}
+
+.job-post {
+	margin-bottom: 60px;
 }
 
 /* ------------------------------------------------------------------------------------------------------------- Contact */
@@ -1210,7 +1251,7 @@ textarea {
 .contact-card {
 	background-color: #1c3260;
 	padding: 20px 20px 10px 20px;
-	margin-left: 95px;
+	margin-left: 75px;
 	.btn {
 		width:100%;
 		color: #fff;
@@ -1318,6 +1359,10 @@ footer {
 
 .headline {
 	padding-bottom: 0px;
+}
+
+.headline-button-careers {
+	margin-right: 10px;
 }
 
 .brand-heading, .brand-heading-careers {
@@ -1428,7 +1473,6 @@ footer {
 .contact-card {
   margin-left: 15px;
   margin-right: 15px;
-  margin-top: 55px;
 }
 
 .office {
@@ -1454,6 +1498,10 @@ footer {
 		padding-left: 80px;
 		padding-right: 80px;
 	}
+}
+
+.social {
+	margin-bottom: 40px;
 }
 
 }
@@ -1625,7 +1673,6 @@ footer {
 .contact-card {
   margin-left: 15px;
   margin-right: 15px;
-  margin-top: 55px;
 }
 
 .office {
@@ -1651,6 +1698,10 @@ footer {
 		padding-left: 180px;
 		padding-right: 180px;
 	}
+}
+
+.social {
+	margin-bottom: 40px;
 }
 
 }
@@ -1717,7 +1768,6 @@ footer {
 
 .contact-card {
 	margin-left: 40px !important;
-	margin-top: 20px;
 }
 
 .office {
@@ -1808,8 +1858,8 @@ footer {
 }
 
 .contact-card {
-	margin-left: 65px !important;
-	margin-top: 10px;
+	margin-left: 45px !important;
+	margin-top: 0px;
 }
 
 #team-member {
