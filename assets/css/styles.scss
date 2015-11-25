@@ -507,7 +507,7 @@ h5 {
 		left: 0;
 		margin-left: 38px;
 		top:0;
-		margin-top: 30px;		
+		margin-top: 30px;
 	}
 }
 
@@ -1073,6 +1073,9 @@ padding: 80px 0px 50px 0px;
 		width: 100%;
 		padding: 75px 40px 40px 40px;
 	}
+	.logo-infosecurityfoundation {
+		padding-top: 55px;
+	}
 }
 
 /* ------------------------------------------------------------------------------------------------------------- Careers Page */
@@ -1094,7 +1097,7 @@ padding: 80px 0px 50px 0px;
 		font-size: 15px;
 		padding-bottom: 10px;
 	}
-	ul { 
+	ul {
 		list-style: none;
 		padding-left: 0px;
 		li {
@@ -1196,9 +1199,9 @@ textarea {
 
 .locations {
 	background: #1C3260;
-	padding: 20px 20px 20px 20px;
+	padding: 20px 15px 20px 15px;
 	margin-bottom: 50px;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .office {
@@ -1245,7 +1248,7 @@ textarea {
 				}
 			 }
 		  }
-		
+
 }
 
 .contact-card {
@@ -1320,7 +1323,7 @@ footer {
 	img {
 		width: 190px !important;
 	}
-}	
+}
 
 .navbar-nav {
 	li {
@@ -1517,7 +1520,7 @@ footer {
 	img {
 		width: 190px !important;
 	}
-}	
+}
 
 .navbar-nav {
 	li {
@@ -1758,7 +1761,7 @@ footer {
 }
 
 .contact {
-	background: $accent !important; 
+	background: $accent !important;
 	border: 2px solid $accent !important;
 }
 
