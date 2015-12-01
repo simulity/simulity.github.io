@@ -229,6 +229,12 @@ h5 {
 .headline-button {
   margin-right: 20px; }
 
+.simulity-video {
+  padding-top: 220px; }
+  .simulity-video iframe {
+    width: 450px;
+    height: 253px; }
+
 .intro {
   display: table;
   width: 100%;
@@ -941,7 +947,7 @@ textarea {
         text-decoration: none; }
       .social ul li a .fa-stack-1x {
         color: white; }
-      .social ul li a .icon-facebook, .social ul li a .icon-twitter, .social ul li a .icon-linkedin {
+      .social ul li a .icon-facebook, .social ul li a .icon-twitter, .social ul li a .icon-linkedin, .social ul li a .icon-youtube {
         color: #17294d; }
   .social li:hover {
     display: inline-block;
@@ -953,7 +959,7 @@ textarea {
       text-decoration: none; }
       .social li:hover a .fa-stack-1x {
         color: #fff; }
-      .social li:hover a .icon-facebook, .social li:hover a .icon-twitter, .social li:hover a .icon-linkedin {
+      .social li:hover a .icon-facebook, .social li:hover a .icon-twitter, .social li:hover a .icon-linkedin, .social li:hover a .icon-youtube {
         color: #225799; }
 
 .contact-card {
@@ -1146,7 +1152,13 @@ footer {
     padding-right: 80px; }
 
   .social {
-    margin-bottom: 40px; } }
+    margin-bottom: 40px; }
+
+  .simulity-video {
+    padding-top: 50px; }
+    .simulity-video iframe {
+      width: 348px;
+      height: 195px; } }
 /* Phone Landscape */
 @media only screen and (min-width: 480px) and (max-width: 970px) {
   .navbar-brand {
@@ -1283,7 +1295,10 @@ footer {
     padding-right: 180px; }
 
   .social {
-    margin-bottom: 40px; } }
+    margin-bottom: 40px; }
+
+  .simulity-video {
+    padding-top: 50px; } }
 /* Tablet Portrait */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-nav {
@@ -1355,7 +1370,13 @@ footer {
     padding: 50px 30px 40px 30px; }
   #logo-banner .logo-globalplatform {
     padding: 70px 0px 0px 0px !important;
-    width: 100% !important; } }
+    width: 100% !important; }
+
+  .simulity-video {
+    padding-top: 50px; }
+
+  .navbar-default.navbar-shrink .navbar-brand img {
+    margin-top: 0px; } }
 /* Tablet Landscape */
 @media only screen and (min-width: 970px) and (max-width: 1200px) {
   .intro, .intro-body, .brand-heading {
@@ -1392,4 +1413,10 @@ footer {
     opacity: 1; }
 
   #logo-banner .logo-globalplatform {
-    padding-top: 65px; } }
+    padding-top: 65px; }
+
+  .simulity-video {
+    padding-top: 220px; }
+    .simulity-video iframe {
+      width: 384px;
+      height: 215px; } }
