@@ -309,6 +309,14 @@ h5 {
 	margin-right: 20px;
 }
 
+.simulity-video {
+	padding-top: 220px;
+	iframe {
+		width: 450px;
+		height: 253px;
+	}
+}
+
 .intro {
     display: table;
     width: 100%;
@@ -1226,7 +1234,7 @@ textarea {
 				.fa-stack-1x {
 					color:white;
 				}
-				.icon-facebook, .icon-twitter, .icon-linkedin {
+				.icon-facebook, .icon-twitter, .icon-linkedin, .icon-youtube {
 					color:#17294d;
 				}
 			 }
@@ -1243,7 +1251,7 @@ textarea {
 				.fa-stack-1x {
 					color:#fff;
 				}
-				.icon-facebook, .icon-twitter, .icon-linkedin {
+				.icon-facebook, .icon-twitter, .icon-linkedin, .icon-youtube {
 					color:$accent;
 				}
 			 }
@@ -1507,6 +1515,14 @@ footer {
 	margin-bottom: 40px;
 }
 
+.simulity-video {
+	padding-top: 50px;
+	iframe {
+		width: 348px;
+		height: 195px;
+	}
+}
+
 }
 
 /* Phone Landscape */
@@ -1707,6 +1723,10 @@ footer {
 	margin-bottom: 40px;
 }
 
+.simulity-video {
+	padding-top: 50px;
+}
+
 }
 
 /* Tablet Portrait */
@@ -1826,6 +1846,19 @@ footer {
 	}
 }
 
+.simulity-video {
+	padding-top: 50px;
+}
+
+.navbar-default.navbar-shrink {
+    .navbar-brand {
+        img {
+			margin-top: 0px;
+        }
+    }
+}
+
+
 }
 
 /* Tablet Landscape */
@@ -1883,6 +1916,14 @@ footer {
 #logo-banner {
 	.logo-globalplatform {
 		padding-top: 65px;
+	}
+}
+
+.simulity-video {
+	padding-top: 220px;
+	iframe {
+		width: 384px;
+		height: 215px;
 	}
 }
 
