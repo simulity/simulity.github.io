@@ -922,18 +922,12 @@ hr.events-breaker {
 #logo-banner {
   background-color: #F8F8F8; }
   #logo-banner img {
-    opacity: 0.7;
-    width: 100%;
-    padding: 50px 70px 40px 70px; }
+    opacity: 1;
+    margin: 0px 0px 0px 0px; }
   #logo-banner ul {
     list-style: none; }
     #logo-banner ul li {
       display: inline-block; }
-  #logo-banner .logo-globalplatform {
-    width: 100%;
-    padding: 75px 40px 40px 40px; }
-  #logo-banner .logo-infosecurityfoundation {
-    padding-top: 55px; }
 
 /* ------------------------------------------------------------------------------------------------------------- Careers Page */
 .job-description, .job-listings {
@@ -1234,8 +1228,6 @@ footer {
 
   #logo-banner ul {
     padding: 0px !important; }
-  #logo-banner .logo-globalplatform {
-    width: 80%; }
 
   .contact-card {
     margin-left: 15px;
@@ -1249,16 +1241,6 @@ footer {
   .quicklinks {
     text-align: left;
     padding-bottom: 10px; }
-
-  #logo-banner img {
-    width: 100%;
-    padding: 40px 120px 40px 120px;
-    text-align: center; }
-  #logo-banner .logo-globalplatform {
-    width: 100%;
-    padding-top: 30px;
-    padding-left: 80px;
-    padding-right: 80px; }
 
   .social {
     margin-bottom: 40px; }
@@ -1393,16 +1375,6 @@ footer {
     text-align: left;
     padding-bottom: 10px; }
 
-  #logo-banner img {
-    width: 100%;
-    padding: 40px 220px 40px 220px;
-    text-align: center; }
-  #logo-banner .logo-globalplatform {
-    width: 100%;
-    padding-top: 30px;
-    padding-left: 180px;
-    padding-right: 180px; }
-
   .social {
     margin-bottom: 40px; }
 
@@ -1475,12 +1447,6 @@ footer {
       padding: 0px 0px 0px 50px;
       text-align: left; }
 
-  #logo-banner img {
-    padding: 50px 30px 40px 30px; }
-  #logo-banner .logo-globalplatform {
-    padding: 70px 0px 0px 0px !important;
-    width: 100% !important; }
-
   .simulity-video {
     padding-top: 50px; }
 
@@ -1520,9 +1486,6 @@ footer {
 
   #team-member .circle .fade-caption, #mainwrapper .circle .scale-caption {
     opacity: 1; }
-
-  #logo-banner .logo-globalplatform {
-    padding-top: 65px; }
 
   .simulity-video {
     padding-top: 220px; }
