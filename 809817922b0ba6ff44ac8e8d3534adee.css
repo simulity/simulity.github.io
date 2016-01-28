@@ -1248,8 +1248,11 @@ footer {
   .simulity-video {
     padding-top: 50px; }
     .simulity-video iframe {
-      width: 348px;
-      height: 195px; } }
+      width: 340px;
+      height: 195px; }
+
+  .open-positions-btn {
+    margin-bottom: 20px; } }
 /* Phone Landscape */
 @media only screen and (min-width: 480px) and (max-width: 970px) {
   .navbar-brand {
@@ -2745,8 +2748,11 @@ footer {
   .simulity-video {
     padding-top: 50px; }
     .simulity-video iframe {
-      width: 348px;
-      height: 195px; } }
+      width: 340px;
+      height: 195px; }
+
+  .open-positions-btn {
+    margin-bottom: 20px; } }
 /* Phone Landscape */
 @media only screen and (min-width: 480px) and (max-width: 970px) {
   .navbar-brand {
