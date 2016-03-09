@@ -114,7 +114,7 @@ h5 {
   margin-top: 20px; }
 
 .navbar-nav li {
-  padding-left: 15px; }
+  padding-left: 8px; }
 
 .navbar-default .nav li .careers {
   color: #fff !important; }
@@ -138,7 +138,8 @@ h5 {
   border-color: transparent;
   background-color: #213771; }
   .navbar-default .navbar-brand img {
-    width: 260px; }
+    width: 260px;
+    margin-top: -2px; }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -210,7 +211,7 @@ h5 {
       margin-top: 0px; }
     .navbar-default.navbar-shrink .navbar-brand img {
       width: 150px;
-      margin-top: -7px; } }
+      margin-top: -9px; } }
 .careers {
   border: 2px solid #fff;
   border-radius: 3px;
@@ -1120,7 +1121,8 @@ footer {
     padding-bottom: 0px;
     padding-top: 10px; }
     .navbar-brand img {
-      width: 190px !important; }
+      width: 150px !important;
+      margin-top: 5px !important; }
 
   .navbar-nav li {
     border-bottom: 1px solid #2c4178; }
@@ -1260,7 +1262,8 @@ footer {
     padding-bottom: 0px;
     padding-top: 10px; }
     .navbar-brand img {
-      width: 190px !important; }
+      width: 150px !important;
+      margin-top: 5px !important; }
 
   .navbar-nav li {
     border-bottom: 1px solid #2c4178; }
@@ -1388,8 +1391,12 @@ footer {
   .navbar-nav {
     margin-top: 0px; }
     .navbar-nav li {
-      border-bottom: none; }
+      border-bottom: none;
+      font-size: 12px; }
 
+  .navbar-default .navbar-brand img {
+    width: 150px !important;
+    margin-top: 4px !important; }
   .navbar-default .navbar-shrink .navbar-nav {
     margin-top: -5px !important; }
 
@@ -1614,7 +1621,7 @@ h5 {
   margin-top: 20px; }
 
 .navbar-nav li {
-  padding-left: 15px; }
+  padding-left: 8px; }
 
 .navbar-default .nav li .careers {
   color: #fff !important; }
@@ -1638,7 +1645,8 @@ h5 {
   border-color: transparent;
   background-color: #213771; }
   .navbar-default .navbar-brand img {
-    width: 260px; }
+    width: 260px;
+    margin-top: -2px; }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -1710,7 +1718,7 @@ h5 {
       margin-top: 0px; }
     .navbar-default.navbar-shrink .navbar-brand img {
       width: 150px;
-      margin-top: -7px; } }
+      margin-top: -9px; } }
 .careers {
   border: 2px solid #fff;
   border-radius: 3px;
@@ -2620,7 +2628,8 @@ footer {
     padding-bottom: 0px;
     padding-top: 10px; }
     .navbar-brand img {
-      width: 190px !important; }
+      width: 150px !important;
+      margin-top: 5px !important; }
 
   .navbar-nav li {
     border-bottom: 1px solid #2c4178; }
@@ -2760,7 +2769,8 @@ footer {
     padding-bottom: 0px;
     padding-top: 10px; }
     .navbar-brand img {
-      width: 190px !important; }
+      width: 150px !important;
+      margin-top: 5px !important; }
 
   .navbar-nav li {
     border-bottom: 1px solid #2c4178; }
@@ -2888,8 +2898,12 @@ footer {
   .navbar-nav {
     margin-top: 0px; }
     .navbar-nav li {
-      border-bottom: none; }
+      border-bottom: none;
+      font-size: 12px; }
 
+  .navbar-default .navbar-brand img {
+    width: 150px !important;
+    margin-top: 4px !important; }
   .navbar-default .navbar-shrink .navbar-nav {
     margin-top: -5px !important; }
 
