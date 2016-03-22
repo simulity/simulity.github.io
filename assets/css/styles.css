@@ -924,7 +924,12 @@ hr.events-breaker {
   background-color: #F8F8F8; }
   #logo-banner img {
     opacity: 1;
-    margin: 0px 0px 0px 0px; }
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    padding: 0px 50px 0px 50px; }
+  #logo-banner .logo-6 {
+    padding: 0px 15px 0px 15px;
+    margin-top: -30px; }
   #logo-banner ul {
     list-style: none; }
     #logo-banner ul li {
@@ -1461,7 +1466,10 @@ footer {
     padding-top: 50px; }
 
   .navbar-default.navbar-shrink .navbar-brand img {
-    margin-top: 0px; } }
+    margin-top: 0px; }
+
+  #logo-banner .logo-6 {
+    padding: 0px 70px 0px 70px; } }
 /* Tablet Landscape */
 @media only screen and (min-width: 970px) and (max-width: 1200px) {
   .intro, .intro-body, .brand-heading {
@@ -1501,4 +1509,7 @@ footer {
     padding-top: 220px; }
     .simulity-video iframe {
       width: 384px;
-      height: 215px; } }
+      height: 215px; }
+
+  #logo-banner .logo-6 {
+    padding: 0px 70px 0px 70px; } }
