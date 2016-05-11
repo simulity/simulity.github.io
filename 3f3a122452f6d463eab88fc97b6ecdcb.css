@@ -999,7 +999,10 @@ hr.events-breaker {
       color: #000; }
 
 .job-post {
-  margin-bottom: 60px; }
+  margin-bottom: 30px; }
+
+.jobs-disclaimer {
+  font-style: italic; }
 
 /* ------------------------------------------------------------------------------------------------------------- Contact */
 #contact {
@@ -2520,7 +2523,10 @@ hr.events-breaker {
       color: #000; }
 
 .job-post {
-  margin-bottom: 60px; }
+  margin-bottom: 30px; }
+
+.jobs-disclaimer {
+  font-style: italic; }
 
 /* ------------------------------------------------------------------------------------------------------------- Contact */
 #contact {
